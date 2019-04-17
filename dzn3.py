@@ -3,11 +3,9 @@ b = a.split(' ')
 d = []
 g = []
 for x in b:
-    #c = len(x)
     d.append(len(x))
 с = min(d)
 for k in b:
-    #f = len(k)
     if len(k) > с:
         f = k.replace(k[с::], '*')
         e = f.ljust(len(k), '*')
